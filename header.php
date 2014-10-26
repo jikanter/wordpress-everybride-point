@@ -40,6 +40,15 @@
       f.parentNode.insertBefore(p, f);
   }(document));
   </script>
+  <style type="text/css">
+  @media screen and (min-width: 1145px) { 
+    body#blog { 
+      background-image: url("/wp-content/themes/point/images/bunting-left.jpg"), url("/wp-content/themes/point/images/bunting-right.jpg");
+      background-position: left, right;
+      background-repeat: repeat-y;
+     }
+  }
+  </style>
 </head>
 <body id ="blog" <?php body_class('main'); ?>>
 	<div class="main-container">
